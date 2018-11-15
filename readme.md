@@ -1,5 +1,11 @@
 <p align="center"><img src="img/large.png" width="60%"></p>
 
+<p align="center">
+<a href="https://github.com/senhungwong/unity-health-bar/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/senhungwong/unity-health-bar.svg?style=flat-square"></a>
+<a href="https://github.com/senhungwong/unity-health-bar/tags"><img alt="GitHub tag" src="https://img.shields.io/github/tag/senhungwong/unity-health-bar.svg?style=flat-square"></a>
+<a href="http://u3d.as/1nts"><img alt="Unity Assets Store" src="https://img.shields.io/badge/store-unity assets store-ff69b4.svg?style=flat-square"></a>
+</p>
+
 ## Description
 
 A prefab that shows a character's health.
