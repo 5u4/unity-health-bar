@@ -5,15 +5,31 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour {
 
-    public float maxHealth;
-    public float currentHealth;
-
     public float dropSpeed = 0.5f;
+
+    private float maxHealth;
+    private float currentHealth;
 
     private float dropEffectPercentage = 1;
 
     private Image healthBar;
     private Image dropEffect;
+
+    public float GetMaxHealth() {
+        return maxHealth;
+    }
+
+    public float GetCurrentHealth() {
+        return currentHealth;
+    }
+
+    public void SetMaxHealth(float maxHealth) {
+        this.maxHealth = maxHealth;
+    }
+
+    public void SetCurrentHealth(float currentHealth) {
+        this.currentHealth = currentHealth;
+    }
 
     private void Start() {
         healthBar = transform.Find("Health").GetComponent<Image>();
